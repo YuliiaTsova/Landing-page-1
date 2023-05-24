@@ -239,9 +239,6 @@ img {
 }
 
 .about__top {
-  /*display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 60px;*/
   padding-top: var(--offset);
   display: flex;
   -moz-column-gap: 60px;
