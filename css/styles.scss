@@ -179,6 +179,10 @@ img {
   height: 100vh;
   min-height: 750px;
 
+  @media (max-width: 768px) {
+    background: url(../img/hero-cover-mobile.jpg) center/cover no-repeat;
+  }
+
   &__title {
     margin: 0;
 

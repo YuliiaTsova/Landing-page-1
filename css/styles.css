@@ -168,6 +168,11 @@ img {
   height: 100vh;
   min-height: 750px;
 }
+@media (max-width: 768px) {
+  .hero {
+    background: url(../img/hero-cover-mobile.jpg) center/cover no-repeat;
+  }
+}
 .hero__title {
   margin: 0;
   max-width: 936px;
